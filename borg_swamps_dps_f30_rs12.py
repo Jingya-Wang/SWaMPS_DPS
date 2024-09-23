@@ -377,7 +377,7 @@ if result:
 if result:
     for solution in result:
         np.savetxt("objectives_dps_f" + str(time_step) + "_rs12.csv", objectives_total, delimiter=",",  fmt ='% s')
-        np.savetxt("strategies_dps_20240721_f10_rs12.csv", strategies_total, delimiter=",",  fmt ='% s')
+        np.savetxt("strategies_dps_f" + str(time_step) + "_rs12.csv", strategies_total, delimiter=",",  fmt ='% s')
 
 print(objectives_total)
 print(strategies_total)
